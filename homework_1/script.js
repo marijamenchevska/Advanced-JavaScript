@@ -197,7 +197,7 @@ function tableCreation (element, objectArray) {
             let rowCell = document.createElement("td");
             rowCell.setAttribute("style", "border: 1px solid black; text-align: center");
 
-            // change of title color // concatenation of 'color' within getAttribute is also possible
+            // change of title color // concatenation of 'color' with getAttribute is also possible
             // if(property === object.title) {
             //     rowCell.style.color = `${object.color}`; // setAttribute would rewrite the previous style
             // }
